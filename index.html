@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<head>    
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">    
     <title>My Personal Website</title>
 </head>
-<body>  
-    <center>  
-        <h1>Ahmed Abdelkarim Mohammed</h1>
-        <h2>aka "AhmedAlDiab"</h2>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Ahmed Abdelkarim Mohammed</h1>
+            <h2>aka "AhmedAlDiab"</h2>
+            <button id="welcomeButton">Click Me</button>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </div>
         <p>Welcome to my personal website! I am a university student studying computer science .</p>
-        <img src="profilePic.png" alt="Profile Picture" width="300">        
-    </center>
-        <ul>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="studies_hobbies.html">My Studies & Hobbies</a></li>
-            <li><a href="favorites.html">My Favorite Things</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>           
+        <div class="profile">
+            <img src="images/profilePic.png" alt="Profile Picture" width="300" class="profile-pic">
+            <nav class="profile">
+                <ul class="nav">
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="studies_hobbies.html">My Studies & Hobbies</a></li>
+                    <li><a href="favorites.html">My Favorite Things</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

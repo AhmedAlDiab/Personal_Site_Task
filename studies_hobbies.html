@@ -1,13 +1,19 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">    
     <title>My Studies & Hobbies</title>
 </head>
 <body>
-<center>
-    <h1>My Studies & Hobbies</h1>
+    <div class = "content">
+        <div class = "header">
+            <h1>My Studies & Hobbies</h1>
+            <p>Here’s more about my studies and hobbies.</p>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </div>        
 
-    <h2>My Studies</h2>
-    <table border="1">
+        <h2>My Studies</h2>
+        <table>
         <tr>
             <th>Course Name</th>
             <th>What I Like About It</th>
@@ -28,14 +34,20 @@
             <td>Solving Problems</td>
             <td>Functions</td>
         </tr>        
-    </table>
+        </table>
 
-    <h2>My Hobbies</h2>
-    <p>I enjoy Playing Video Games alot and Watching Anime.</p>
-    <img src="Kingdom-Come-Deliverance-II_2024_08-20-24_001.jpg" alt="Kingdom-Come-Deliverance-II" width="500">
-    <img src="Attack.jpg" alt="Attack on titan" width="500">
-    <br>
-    <a href="index.html">Back to Home</a>
-</center>
-</body>
+        <h2>My Hobbies</h2>
+        <p>I enjoy Playing Video Games alot and Watching Anime.</p>
+        <div class = "imagesscrol">
+            <img src="images/Kingdom-Come-Deliverance-II_2024_08-20-24_001.jpg" alt="Kingdom-Come-Deliverance-II" width="500">
+            <img src="images/Attack.jpg" alt="Attack on titan" width="500">
+            <img src="images/ippo.jpeg" alt="Attack on titan" width="500">
+        </div>        
+        <br>
+        <div id = "centerme">
+                <a id = "Button" href="index.html">Back to Home</a>
+        </div> 
+    </div>
+    <script src="script.js"></script>
+    </body>
 </html>

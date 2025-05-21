@@ -1,34 +1,54 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <link rel="stylesheet" href="style.css">    
     <title>My Favorite Things</title>
 </head>
+
 <body>
-    <h1>My Favorite Things</h1>
+    <div class="content favorites">
+        <div class="header">
+            <h1>My Favorite Things</h1>
+            <p>Here are some of my favorite things:</p>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </div>
+        <div class="about-me" id = "centerme">
+            <h2>Books</h2>
+            <ul class = "grid">
+                <li>Logic in Games <br><img src="images/Logic in Games.jpg"width="250"></li>
+                <li>Competitive Programming 3 <br><img src="images/Competitive Programming 3.jpg"width="250"></li>
+            </ul>
 
-    <h2>Books</h2>
-    <ul>
-        <li>الرحيق المختوم</li>
-        <li>الخيميائي</li>
-    </ul>
+            <h2>Movies</h2>
+            <ul class = "grid">
+                <li>A Man Called Otto<br><img src="images/A Man Called Otto.jpeg"width="250"></li>
+                <li>Arrival<br><img src="images/Arrival-2016.webp"width="250"></li>
+            </ul>
 
-    <h2>Movies</h2>
-    <ul>
-        <li>A Man Called Otto</li>
-        <li>Arrival</li>
-    </ul>
+            <h2>Songs</h2>
+            <p>I don't listen to songs a lot.</p>
 
-    <h2>Songs</h2>
-    <p>I don't listen to songs a lot.</p>
+            <h2>Sports/Games</h2>
+            <p>I don't play sports either but here is a list of video games:</p>
+            <ul class = "grid">
+                <li>Kingdom Come Deliverance <br><img src="images/Kingdom-Come-Deliverance-II_2024_08-20-24_001.jpg"width="250"></li>
+                <li>MAFIA 2 (the classic one 🫡)<br><img src="images/MAFIA 2.jpeg"width="250"></li>
+                <li>Far Cry 3<br><img src="images/Far Cry 3.jpeg"width="250"></li>
+                <li>Red Dead Redemption 2<br><img src="images/red dead redemption 2.jpeg"width="250"></li>
+            </ul>
 
-    <h2>Sports/Games</h2>
-    <p>I don't play sports either.</p>
-
-    <h2>Foods</h2>
-    <ul>
-        <li>Pizza</li>
-        <li>Rice</li>
-    </ul>
-
-    <a href="index.html">Back to Home</a>
+            <h2>Foods</h2>
+            <ul class = "grid">
+                <li>Pizza<br><img src="images/Pizza.jpeg"width="250"></li>
+                <li>Rice<br><img src="images/Rice.jpeg"width="250"></li>
+            </ul>
+        </div>
+        <div id="centerme">
+            <a id="Button" href="index.html">Back to Home</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
